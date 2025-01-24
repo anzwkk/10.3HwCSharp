@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введіть рядок, де слова розділені комами: ");
+string input = Console.ReadLine();
+
+string result = input.Replace(" ", "");
