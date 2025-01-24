@@ -2,3 +2,4 @@
 string input = Console.ReadLine();
 
 string result = input.Replace(" ", "");
+Console.WriteLine($"Результат без пробілів: {result} ");
